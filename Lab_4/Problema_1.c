@@ -54,6 +54,12 @@
         }
     }
 
+    void afisareStiva(int top, int stack[]){
+    for(int i = 0; i <= top; i++){
+        printf("%d ", stack[i]);
+    }
+}
+
     
     //functii pentru coada
     void enqueue(int *rear, int queue[]){
@@ -76,10 +82,7 @@
             return ;
         } else {
             printf("\nElementul sters din coada este: %d", queue[*front]);
-            for(int i = 0; i < *rear - 1; i++){
-                queue[i] = queue[i + 1];
-            }
-            *rear = *rear - 1;
+            *front = *front + 1;
         }
     }
 
@@ -113,6 +116,13 @@
         }
     }
 
+    void afisareCoada(int rear, int front, int queue[]){
+        for(int i = front; i <= rear; i++){
+            printf("%d ", queue[i]);
+        }
+    }
+
+
     int main(){
         int stack[SIZE] = {8, 4, 2, 7, 4, 9};
         int queue[SIZE] = {9, 5, 3, 8, 1, 4};
@@ -121,17 +131,29 @@
         int front = 0;
 
         //comenzi stiva
+        printf("Stiva este: ");
+        afisareStiva(top, stack);
         push(&top, stack);
+        printf("Stiva este: ");
+        afisareStiva(top, stack);
         peekStack(top, stack);
         pop(&top, stack);
+        printf("\nStiva este: ");
+        afisareStiva(top, stack);
         peekStack(top, stack);
         isEmpty(top);
         isFull(top);
 
         //comenzi coada
+        printf("\n\nCoada este: ");
+        afisareCoada(rear, front, queue);
         enqueue(&rear, queue);
+        printf("Coada este: ");
+        afisareCoada(rear, front, queue);
         peekQueue(queue, front, rear);
         dequeue(&front, &rear, queue);
+        printf("\nCoada este: ");
+        afisareCoada(rear, front, queue);
         peekQueue(queue, front, rear);
         isEmptyQueue(front, rear);
         isFullQueue(rear);
