@@ -18,7 +18,7 @@ int max(int x, int y) {
     }
 }
 
-void insert(struct node *root, int data) {
+void insert(struct node **root, int data) {
     struct node *tempNode = (struct node *) malloc(sizeof(struct node));
     struct node *current;
     struct node *parent;
@@ -27,11 +27,11 @@ void insert(struct node *root, int data) {
     tempNode->leftChild = NULL;
     tempNode->rightChild = NULL;
 
-    if (root == NULL) {
-        root = tempNode;
+    if (*root == NULL) {
+        *root = tempNode;
         return;
     } else {
-        current = root;
+        current = *root;
         parent = NULL;
 
         while(1) {
@@ -82,6 +82,16 @@ int echilibrat(struct node *root) {
     }
 }
 
+void postOrderTraversal(struct node *root) {
+    if(root == NULL) {
+        return;
+    } else {
+        postOrderTraversal(root->leftChild);
+        postOrderTraversal(root->rightChild);
+        printf("%d ", root->data); 
+    }
+}
+
 int main(){
     struct node *root = NULL;
     int nr_elemente;
@@ -92,8 +102,11 @@ int main(){
     printf("Introduceti elemntele arborelui: ");
     for(int i = 0; i < nr_elemente; i++) {
         scanf("%d", &element);
-        insert(root, element);
+        insert(&root, element);
     }
+
+    printf("Arborele afisat cu metoda post order este: ");
+    postOrderTraversal(root);
 
     if(echilibrat(root) == 1) {
         printf("\nArbroele binar este echilibrat");
