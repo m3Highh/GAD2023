@@ -1,0 +1,7 @@
+\contentsline {part}{I\hspace {1em}A part title in a report}{2}{}%
+\contentsline {chapter}{\numberline {1}A chapter title in a part}{3}{}%
+\contentsline {section}{\numberline {1.1}A section title in a chapter}{3}{}%
+\contentsline {chapter}{\numberline {2}Another chapter title}{4}{}%
+\contentsline {section}{\numberline {2.1}Another section in another chapter}{4}{}%
+\contentsline {part}{II\hspace {1em}Another title part}{5}{}%
+\contentsline {chapter}{\numberline {3}A new chapter title}{6}{}%

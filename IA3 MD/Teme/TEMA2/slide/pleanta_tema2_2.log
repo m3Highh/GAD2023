@@ -1,0 +1,254 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.3.14)  12 APR 2023 15:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./pleanta_tema2_2.tex
+(pleanta_tema2_2.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\slides.cls
+Document Class: slides 2022/05/18 v2.4b Standard LaTeX document class
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\slides.def
+File: slides.def 2022/05/18 v2.4b SLiTeX definitions
+ hacks,
+slides,
+\c@page=\count185
+ picture, mods,
+\@smashboxa=\box51
+\@smashboxb=\box52
+\@smashboxc=\box53
+ output, init)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\sfonts.def
+File: sfonts.def 2019/07/09 v2.2f Standard LaTeX slide font definitions
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1lcmss.fd
+File: ot1lcmss.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
+))
+\c@minutes=\count186
+\c@seconds=\count187
+\c@mv@invisible=\count188
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/n on input line 360.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/it on input line 363.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/n on input line 365.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/n on input line 367.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `invisible'
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/In on input line 370.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `invisible'
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/Iit on input line 372.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `invisible'
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/In on input line 374.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `invisibl
+e'
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/In on input line 376.
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/10/04 3.81 The Babel package
+\babel@savecnt=\count189
+\U@D=\dimen138
+\l@unhyphenated=\language79
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count190
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/babel-romanian\romanian
+.ldf
+Language: romanian 2021/04/04 v1.2m Romanian support from the babel system
+))
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/ro\babel
+-romanian.tex
+Package babel Info: Importing font and identification data for romanian
+(babel)             from babel-ro.ini. Reported on input line 11.
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen139
+\stockheight=\dimen140
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box54
+) (pleanta_tema2_2.aux)
+\openout1 = `pleanta_tema2_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/lcmss/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen143
+\scratchbox=\box55
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen144
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks19
+)
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for OML+lcmm on input line 
+12.
+ (C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\omllcmm.fd
+File: omllcmm.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
+)
+LaTeX Font Info:    Trying to load font information for OMS+lcmsy on input line
+ 12.
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\omslcmsy.fd
+File: omslcmsy.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
+)
+LaTeX Font Info:    Trying to load font information for OMX+lcmex on input line
+ 12.
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/base\omxlcmex.fd
+File: omxlcmex.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
+)
+LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
+(Font)              <19.907> on input line 12.
+LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
+(Font)              <16.59> on input line 12.
+LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
+(Font)              <13.82> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
+
+(C:\Users\plean\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for TS1+lcmss on input line
+ 12.
+LaTeX Font Info:    No file TS1lcmss.fd. on input line 12.
+
+
+LaTeX Font Warning: Font shape `TS1/lcmss/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 12.
+
+
+LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <16.59> not available
+(Font)              size <17.28> substituted on input line 12.
+
+LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
+(Font)              <7> on input line 12.
+[0
+
+{C:/Users/plean/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (10.18814pt too wide) in paragraph at lines 14--18
+[]\OT1/lcmss/bx/n/19.907 Lucrarea pre-zint^^Ua ele-mente in-tro-duc-tive pri-
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./figura.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<figura.pdf, id=8, 284.62335pt x 213.4374pt>
+File: figura.pdf Graphic file (type pdf)
+<use figura.pdf>
+Package pdftex.def Info: figura.pdf  used on input line 44.
+(pdftex.def)             Requested size: 227.69897pt x 170.75014pt.
+[0] [0 <./figura.pdf>] (pleanta_tema2_2.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.69pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2505 strings out of 475385
+ 44717 string characters out of 2776907
+ 401041 words of memory out of 3000000
+ 23877 multiletter control sequences out of 15000+600000
+ 477393 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,62p,434b,209s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\plean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk> <C:\Users\plean\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1728.pk><C:/Users/plean/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Users/plean/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/latxfont/lcmss8.pfb><C:/Users/plean/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/latxfont/lcmssb8.pfb>
+Output written on pleanta_tema2_2.pdf (3 pages, 76675 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

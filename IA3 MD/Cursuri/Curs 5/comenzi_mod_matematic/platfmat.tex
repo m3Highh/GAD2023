@@ -1,0 +1,151 @@
+\documentclass{article}
+%babel
+\usepackage[romanian]{babel}
+\usepackage{amsfonts}
+%
+\usepackage{graphicx}%doar dacă dorim să importăm grafică
+%
+%titlu
+\title{Comenzi în modul matematic}
+\author{anul I, IA3 - Managementul documentelor}
+\begin{document}
+\maketitle
+\listoftables
+\begin{table}
+
+\begin{tabular}{rlrlrlrl}
+$\alpha$     &\verb|\alpha  |     &$\theta$   &\verb|\theta  |   &$o$        &\verb|o  |       &$\tau$    &\verb|\tau|\\
+$\beta$      &\verb|\beta   |     &$\vartheta$&\verb|\vartheta  |&$\pi$      &\verb|\pi  |     &$\upsilon$&\verb|\upsilon|\\
+$\gamma$     &\verb|\gamma  |     &$\iota$    &\verb|\iota  |    &$\varpi$   &\verb|\varpi  |  &$\phi$    &\verb|\phi|\\
+$\delta$     &\verb|\delta  |     &$\kappa$   &\verb|\kappa  |   &$\rho$     &\verb|\rho  |    &$\varphi$ &\verb|\varphi|\\
+$\epsilon$   &\verb|\epsilon  |   &$\lambda$  &\verb|\lambda  |  &$\varrho$  &\verb|\varrho|   &$\chi$    &\verb|\chi|\\
+$\varepsilon$&\verb|\varepsilon  |&$\mu$      &\verb|\mu  |      &$\sigma$   &\verb|\sigma  |  &$\psi$    &\verb|\psi|\\
+$\zeta$      &\verb|\zeta  |      &$\nu$      &\verb|\nu  |      &$\varsigma$&\verb|\varsigma  |&$\omega$  &\verb|\omega  |\\
+$\eta$       &\verb|\eta  |       &$\xi$      &\verb|\xi  |\\
+\end{tabular}
+
+\begin{tabular}{rlrlrlrl}
+$\Gamma$    &\verb|\Gamma       |&$\Lambda$  &\verb|\Lambda    |&$\Sigma$   &\verb|\Sigma   |  &$\Psi$  &\verb|\Psi|\\
+$\Delta$    &\verb|\Delta       |&$\Xi$      &\verb|\Xi        |&$\Upsilon$ &\verb|\Upsilon   |&$\Omega$&\verb|\Omega|\\
+$\Theta$    &\verb|\Theta       |&$\Pi$      &\verb|\Pi        |&$\Phi$     &\verb|\Phi|\\
+\end{tabular}
+\caption{Literele alfabetului grec}
+\end{table}
+
+\begin{table}
+\begin{tabular}{clclclcl}
+$\pm$    &\verb|\pm       |&$\cap$   &\verb|\cap    |&$\diamond$        &\verb|\diamond   |     &$\oplus$ &\verb|\oplus|\\
+$\mp$    &\verb|\mp       |&$\cup$   &\verb|\cup    |&$\bigtriangleup$  &\verb|\bigtriangleup  |&$\ominus$&\verb|\ominus|\\
+$\times$ &\verb|\times    |&$\uplus$ &\verb|\uplus  |&$\bigtriangledown$&\verb|\bigtriangledown|&$\otimes$&\verb|\otimes|\\
+$\div$   &\verb|\div      |&$\sqcap$ &\verb|\sqcap  |&$\triangleleft$   &\verb|\triangleleft   |&$\oslash$&\verb|\oslash|\\
+$\ast$   &\verb|\ast      |&$\sqcup$ &\verb|\sqcup  |&$\triangleright$  &\verb|\triangleright  |&$\odot$  &\verb|\odot|\\
+$\star$  &\verb|\star     |&$\vee$   &\verb|\vee    |&$\bigcirc$        &\verb|\bigcirc|\\
+$\circ$  &\verb|\circ     |&$\wedge$ &\verb|\wedge  |&$\dagger$         &\verb|\dagger|\\
+$\bullet$&\verb|\bullet   |&$\setminus$&\verb|\setminus  |&$\ddagger$&\verb|\ddagger|\\
+$\cdot$  &\verb|\cdot     |&$\wr      $&\verb|\wr  |&$\amalg$&\verb|\amalg|\\
+\end{tabular}
+\caption{Operatori binari}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{clclclcl}
+$\leq$    &\verb|\leq       |&$\geq$   &\verb|\geq    |&$\equiv$        &\verb|\equiv   |     &$\models$ &\verb|\models|\\
+$\prec$    &\verb|\prec       |&$\succ$   &\verb|\succ    |&$\sim$  &\verb|\sim  |&$\perp$&\verb|\perp|\\
+$\preceq$ &\verb|\preceq    |&$\succeq$ &\verb|\succeq  |&$\simeq$&\verb|\simeq|&$\mid$&\verb|\mid|\\
+$\ll$   &\verb|\ll      |&$\gg$ &\verb|\gg  |&$\asymp$   &\verb|\asymp   |&$\parallel$&\verb|\parallel|\\
+$\subset$   &\verb|\subset      |&$\supset$ &\verb|\supset  |&$\approx$  &\verb|\approx  |&$\bowtie$  &\verb|\bowtie|\\
+$\subseteq$  &\verb|\subseteq     |&$\supseteq$   &\verb|\supseteq    |&$\cong$        &\verb|\cong|\\
+$\neq$  &\verb|\neq     |&$\smile$ &\verb|\smile  |\\
+$\sqsubseteq$&\verb|\sqsubseteq   |&$\sqsupseteq$&\verb|\sqsupseteq  |&$\doteq$&\verb|\doteq|&$\frown$&\verb|\frown|\\
+$\in$  &\verb|\in     |&$\ni      $&\verb|\ni  |&$\propto$&\verb|\propto|\\
+$\vdash$&\verb|\vdash  |&$\dashv$&\verb|\dashv|\\
+\end{tabular}
+\caption{Operatori rela\c tionali}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{clclclcl}
+$\leftarrow$     &\verb|\leftarrow         |&$\longleftarrow$     &\verb|\longleftarrow   |\\
+$\Leftarrow$     &\verb|\Leftarrow         |&$\Longleftarrow$     &\verb|\Longleftarrow    |\\
+$\rightarrow$    &\verb|\rightarrow        |&$\longrightarrow$    &\verb|\longrightarrow  |\\
+$\Rightarrow$    &\verb|\Rightarrow        |&$\Longrightarrow$    &\verb|\Longrightarrow  |\\
+$\leftrightarrow$&\verb|\leftrightarrow    |&$\longleftrightarrow$&\verb|\longleftrightarrow  |\\
+$\Leftrightarrow$&\verb|\Leftrightarrow    |&$\Longleftrightarrow$&\verb|\Longleftrightarrow    |\\
+$\mapsto$        &\verb|\mapsto            |&$\longmapsto$        &\verb|\longmapsto  |\\
+$\hookleftarrow$ &\verb|\hookleftarrow     |&$\hookrightarrow$    &\verb|\hookrightarrow  |\\
+$\leftharpoonup$ &\verb|\leftharpoonup     |&$\rightharpoonup     $&\verb|\rightharpoonup  |\\
+$\leftharpoondown$&\verb|\leftharpoondown  |&$\rightharpoondown$  &\verb|\rightharpoondown   |\\
+$\rightleftharpoons$&\verb|\rightleftharpoons    |\\
+$\uparrow$        &\verb|\uparrow|&$\Uparrow$  &\verb|\Uparrow|\\
+$\downarrow$&\verb|\downarrow|&$\Downarrow$   &\verb|\Downarrow   |\\
+$\updownarrow$  &\verb|\updownarrow  |&$\Updownarrow$&\verb|\Updownarrow|\\
+$\nearrow$         &\verb|\nearrow|&$\searrow$&\verb|\searrow|\\
+$\swarrow$&\verb|\swarrow|&$\nwarrow$&\verb|\nwarrow|\\
+\end{tabular}
+\caption{Simboluri de tip s\u ageat\u a}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{clclclcl}
+$\aleph$    &\verb|\aleph       |&$\prime$   &\verb|\prime    |&$\forall$        &\verb|\forall   |     &$\infty$ &\verb|\infty|\\
+$\hbar$    &\verb|\hbar       |&$\emptyset$   &\verb|\emtyset    |&$\exists$  &\verb|\exists  |\\
+$\imath$ &\verb|\imath    |&$\nabla$ &\verb|\nabla  |&$\neg$&\verb|\neg|\\
+$\jmath$   &\verb|\jmath      |&$\surd$ &\verb|\surd  |&$\flat$   &\verb|\flat   |&$\triangle$&\verb|\triangle|\\
+$\ell$   &\verb|\ell      |&$\top$ &\verb|\top  |&$\natural$  &\verb|\natural  |&$\clubsuit$  &\verb|\clubsuit|\\
+$\wp$  &\verb|\wp     |&$\bot$   &\verb|\bot    |&$\sharp$        &\verb|\sharp|&$\diamondsuit$&\verb|\diamondsuit|\\
+$\Re$  &\verb|\Re     |&$\|$ &\verb|\|  |&$\backslash$         &\verb|\backslash|&$\heartsuit$         &\verb|\heartsuit|\\
+$\Im$&\verb|\Im   |&$\angle$&\verb|\angle  |&$\partial$&\verb|\partial|&$\spadesuit$         &\verb|\spadesuit|\\
+\end{tabular}
+\caption{Alte simboluri matematice}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{clclcl}
+$($&\verb.( .&$)$&\verb.)   .&$/$&\verb./  .  \\
+$[$    &\verb.[       .&$]$&\verb.]   .&$|$&\verb.| .\\
+$\{$ &\verb.\{   .&$\}$&\verb.\}  .&$\backslash$&\verb.\backslash.\\
+$\lfloor$&\verb.\lfloor      .&$\rfloor$&\verb.\rfloor  .&$\|$&\verb.\|.\\
+$\lceil$&\verb.\lceil   .&$\rceil$&\verb.\rceil   .\\
+$\langle$&\verb.\langle   .&$\rangle$&\verb.\rangle   .\\
+\end{tabular}
+\caption{Delimitatori}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{clclclcl}
+$\hat{a}$&\verb|\hat{a}  |&$\acute{a}$&\verb|\acute{a}    |&$\bar{a}$&\verb|\bar{a}   |&$\dot{a}$&\verb|\dot{a}|\\
+$\check{a}$&\verb|\check{a}  |&$\grave{a}$&\verb|\grave{a}    |&$\vec{a}$&\verb|\vec{a}  |&$\ddot{a}$&\verb|\ddot{a}  |\\
+$\breve{a}$&\verb|\breve{a}  |&$\tilde{a}$ &\verb|\tilde{a}  |\\
+\end{tabular}
+\caption{Accente în modul matematic}
+\end{table}
+\par
+
+\begin{table}
+\begin{tabular}{llll}
+\verb|\mathrm{|\em{text}\verb|}|  &$\mathrm{Roman}$&\verb|\mathsf{|\em{text}\verb|}|&$\mathsf{Sans Serif}$\\
+\verb|\mathit{|\em{text}\verb|}|  &$\mathit{Italic}$&\verb|\mathtt{|\em{text}\verb|}|&$\mathtt{Typewriter}$\\
+\verb|\mathbf{|\em{text}\verb|}|&$\mathbf{Boldface}$&\verb|\mathcal{|\em{TEXT}\verb|}|&$\mathcal{CALIGRAF}$\\
+\end{tabular}
+\caption{Tipuri de caractere în  modul matematic}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{ll}
+\verb+\mathbb{R}+&$\mathbb{R}$\\
+\verb+\mathbb{Z}+&$\mathbb{Z}$\\
+\verb+\mathbb{Q}+&$\mathbb{Q}$\\
+\verb+\mathbb{C}+&$\mathbb{C}$
+\end{tabular}
+\caption{Simboluri speciale}\label{tab:amsfont}
+\end{table}
+
+Simbolurile din tabelul \ref{tab:amsfont} necesită în preambul comanda
+\verb+\usepackage{amsfonts}+. 
+\end{document}

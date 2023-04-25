@@ -1,0 +1,26 @@
+\documentclass{book}
+\title{Example C4:document types and their layout }
+\author{Student}
+\begin{document}
+\maketitle
+\tableofcontents
+\part{A part title in a book}
+\chapter{A chapter title in a part}\label{cha:et}
+\section{A section title in a chapter}\label{sec:et}
+A text. Note that in a book document, chapters can start only on odd pages (\emph{pagini cu numere impare}).\par
+Pages are numbered automatically.\par
+Parts, chapters and sections are numbered with distinct variables called counters.\par
+The names of the counters are the same as the names of the sectioning commands, respectively :
+\begin{itemize}
+\item \verb+part+ for \verb+\part+
+\item \verb+chapter+ for \verb+\chapter+
+\item \verb+section+ for \verb+\section+
+\end{itemize}
+\chapter{Another chapter title}
+\section{Another section in another chapter}
+According to the text in section \ref{sec:et} in chapter \ref{cha:et}, at page \pageref{cha:et} ...\par
+Note that sections are numbered with two digits: the first one for the chapter counter, the second one for the section counter.
+\part{Another title part}
+\chapter{A new chapter title}
+Another text
+\end{document}

@@ -1,0 +1,56 @@
+\documentclass{article}
+\title{Examples in mathematical mode in C4}
+\author{Student}
+\begin{document}
+\maketitle
+\section{A matrix}
+%using array
+Here begins a text in line, followed by a matrix in line,  
+$A(x,y)=\left(
+\begin{array}{ccc}
+\frac{x}{y} & 0 & 0\\
+1 & 0 & x
+\end{array}
+\right)$. After the matrix,  return into the text mode. But we can edit the same matrix on a separate line like this, with \verb+$$...$$+:
+$$A(x,y)=\left(
+\begin{array}{ccc}
+\frac{x}{y} & 0 & 0\\
+1 & 0 & x
+\end{array}
+\right)$$ or like this, with \verb+\[...\]+:
+\[A(x,y)=\left(
+\begin{array}{ccc}
+\frac{x}{y} & 0 & 0\\
+1 & 0 & x
+\end{array}
+\right)\]
+\section{Several equations}
+%using equation and eqnarray
+Here are several equations, numbered on separate lines. The equation counter is a variable called equation.
+\begin{equation}\label{ec:e}
+\lim_{n\rightarrow\infty}\left(1+\frac{1}{n}\right)^{n}=e
+\end{equation}
+\begin{equation}\label{ec:lap}
+F(s)=\int_{0}^{\infty}f(t)e^{-st}dt
+\end{equation}
+This is an example of the \verb+eqnarray+ environment, allowing to align the \verb+=+ sign of several equations separated by \verb+\\+. The \verb+\nonumber+ command is placed before the equation we do not want to be numbered.
+\begin{eqnarray}
+x_n&=&x_{n-1}+x_{n-2}\\
+\nonumber
+f(x)&=&x^2\\
+\nonumber
+\lefteqn{g(x)=x^2+y^2}\\
+& &+z^2
+\end{eqnarray}
+If equation \ref{ec:lap} is displayed in line it looks like this: $F(s)=\int_{0}^{\infty}f(t)e^{-st}dt$.
+%using equation and array
+Here is an example of a function defined on intervals:
+\begin{equation}
+f(x)=\left\{
+\begin{array}{rl}
+x,&x>=0\\
+-x,&x<0
+\end{array}\right.
+\end{equation}
+Note how the \verb+array+ environment is delimited.
+\end{document}
